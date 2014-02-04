@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="always"
+        android:onClick="onRefreshTweets"
+        ></item>
+    <item android:id="@+id/action_compose"
+        android:icon="@drawable/ic_action_compose"
+        android:showAsAction="always"
+        android:onClick="onComposeTweet"
+        ></item>
+        <item android:id="@+id/action_profile"
+        android:icon="@drawable/ic_mention"
+        android:showAsAction="always"
+        android:onClick="onProfileView"
+        ></item>
+    
+
+</menu>
